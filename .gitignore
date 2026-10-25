@@ -1,0 +1,113 @@
+# ============================================================
+# Data files (flavor network dataset)
+# ============================================================
+# The dataset is large and should not be tracked.
+# Users should download it from Zenodo (record 11449658).
+data/
+*.zip
+flavor_network_data/
+flavor_network_data.zip
+
+# Raw TSV/TXT files, wherever they might be placed
+*.tsv
+*.txt
+!README.txt
+!LICENSE.txt
+!requirements.txt
+!environment.yml
+!pyproject.toml
+!setup.cfg
+!setup.py
+!setup.py
+!MANIFEST.in
+!Makefile
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!SECURITY.md
+!CHANGELOG.md
+!*.md
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ============================================================
+# Jupyter / notebooks
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb.bak
+*.ipynb.swp
+*.ipynb~
+*/.ipynb_checkpoints/*
+!*.ipynb
+
+# ============================================================
+# Outputs and figures
+# ============================================================
+outputs/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+!docs/**/*.png
+!docs/**/*.svg
+!docs/**/*.pdf
+
+# ============================================================
+# Caches and temp files
+# ============================================================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tmp/
+tmp/
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# IDE / editor
+# ============================================================
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+desktop.ini
